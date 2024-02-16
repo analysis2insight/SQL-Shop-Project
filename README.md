@@ -5,6 +5,14 @@
 This is a review of a Bike Shop utilizing SQL queries and Power Bi to visualize.  The project is to analyze the bike shop data and pull insights from the data to answer the clients questions to drive data based decisions to guide the business.  
 
 ## Client Requirements 
+1.	 What is the overall performance of the shop and is there year over year growth? 
+2.	Which store has the highest performance? 
+3.	Which category of Bike has the highest revenue?
+4.	How much are we carrying in inventory? 
+5.	Is the inventory evenly distributed? 
+6.	Review of customer purchase trends? 
+7.	Should the shop focus on repeat customers or new?  
+8.	Review staff performance for key insights?  
 
 
 ## Implementation Strategy
