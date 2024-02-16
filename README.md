@@ -35,18 +35,23 @@ In order or organize the bike shop data and focus on key sections the Power BI r
 
 
 
- ![](Scr)  
+ ![](Financials.png)  
 Dashboard:  Financial Performance
 
 Further review of the data was completed to establish any associations or tends in the data with respect to the target value (build-up).     From Fig 7, Operator controllable Variables Trend, and Fig 8, System or Feedback Variables Trends, there was no obvious indictor or combination of variables that would indicate build-up.  This can be seen from the random True (positive) indicators.  There is no significant grouping or trend area.  This led to the inclusion of all variables (features) in the initial model.   
 
 
- ![](issuedistbyform.jpg)  
+ ![](inventorymng.png)  
 
-Fig 7:  Operator controllable Variables Trend 
+Dashboard:  Inventory Management
 
-  ![](issuedistbycontrol.jpg)  
-Fig 8:  System or Feedback Variables Trends
+  ![](custormerfocus.png)  
+Dashboard:  Customer Focus
+
+  ![](staffperf.png)  
+Dashboard:  Staff Performance
+
+
 
 ## Model selection and analysis review
 
