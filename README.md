@@ -26,11 +26,17 @@ Database Shema
 
 ##  Analysis of Data
 
+Dashboards and Visualizations: 
+In order or organize the bike shop data and focus on key sections the Power BI review was broken into 4 dashboards, each one focusing on a different area of the clients concerns: 
+1.	 Business Financials 
+2.	Inventory Management
+3.	Customer Focus 
+4.	Staff Insights
 
 
 
- ![](issuebynozzle.jpg)  
-Fig 6:  Distribution per Formula
+ ![](Scr)  
+Dashboard:  Financial Performance
 
 Further review of the data was completed to establish any associations or tends in the data with respect to the target value (build-up).     From Fig 7, Operator controllable Variables Trend, and Fig 8, System or Feedback Variables Trends, there was no obvious indictor or combination of variables that would indicate build-up.  This can be seen from the random True (positive) indicators.  There is no significant grouping or trend area.  This led to the inclusion of all variables (features) in the initial model.   
 
