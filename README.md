@@ -16,45 +16,17 @@ This is a review of a Bike Shop utilizing SQL queries and Power Bi to visualize.
 
 
 ## Implementation Strategy and Data Collection: 
- The data was gathered from multiple csv files with each file corresponding to one table of data. A program called quickDBD was used to create the schema for the SQL database.  The model was a Snowflake schema (see below).   The files were uploaded into an SQL database using PostgreSQL.  Using SQL the data was analyzed and then combined to build a dataset with the key information that is suitable for dashboard creating in Power BI.   The data was extracted into Power Bi and evaluated to provide key insights to meet the client’s requirements.   
+ The data was gathered from multiple csv files with each file corresponding to one table of data. A program called quickDBD was used to create the schema for the SQL database.  The model was a Snowflake schema (see below).   The files were uploaded into an SQL database using PostgreSQL.  Using SQL the data was analyzed and then combined to build a dataset with the key information that is suitable for dashboard creating in Power BI.  Used SQL to minimize the data transfer to improve performance of the Power BI evaluation.  The data was extracted into Power Bi and evaluated to provide key insights to meet the client’s requirements.   
 
-[sqlschema](QuickDBD-export.sql) [sqlcleanup](SQLsearchOct112023.sql) [sqlschema](stocksearch.sql) 
+[sqlschema](QuickDBD-export.sql) [sqlcleanup](SQLsearchOct112023.sql) [inventory sql](stocksearch.sql) 
 
 ![](sql_layout.jpg)  
-
 Database Shema 
 
 
-
-![](reactors.png)  
-
-Fig 1: Reactor Process Flow
-
-The 
-
-## Data Preprocessing and Analysis of Data
-Quickly
-
- ![](histogrambefore.jpg)  
-Fig 1:  Feature Histogram Raw
+##  Analysis of Data
 
 
-
-
- ![](histogramafterclean.jpg)  
-Fig 2: Feature Histogram Cleaned
-
-The
-
-
- ![](imbalance.jpg)  
-Fig 4: Class Imbalance 
-
-An analysis was conducted to determine if there were relationships between the target value and some of the categorical values.    Fig 5 below show the distribution of build-up cases against the different orifice sizes.  It shows that the build up cases are evenly distributed across all sets of orifices and is more dependent on the number of batches.  Fig 6 below shows the relationship of buildup and formulations.  It shows that the buildup is not consistent to any single formulation and that the number of assurances is also correlated to the number of times the formulation is run (i.e.  more occurrence on formulations that are produced more often).  
-
-
- 
-Fig 5:  Distribution per orifice size
 
 
  ![](issuebynozzle.jpg)  
