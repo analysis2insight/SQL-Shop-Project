@@ -41,6 +41,10 @@ Dashboard:  Financial Performance
 Further review of the data was completed to establish any associations or tends in the data with respect to the target value (build-up).     From Fig 7, Operator controllable Variables Trend, and Fig 8, System or Feedback Variables Trends, there was no obvious indictor or combination of variables that would indicate build-up.  This can be seen from the random True (positive) indicators.  There is no significant grouping or trend area.  This led to the inclusion of all variables (features) in the initial model.   
 
 
+
+#  Overall Company Performance: 
+
+
  ![](inventorymng.png)  
 
 Dashboard:  Inventory Management
