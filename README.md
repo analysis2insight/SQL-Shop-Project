@@ -15,13 +15,15 @@ This is a review of a Bike Shop utilizing SQL queries and Power Bi to visualize.
 8.	Review staff performance for key insights?  
 
 
-## Implementation Strategy
-DATA Sourcing: 
-The data was gathered from multiple csv files with each file corresponding to one table of data. A program called quickDBD was used to create the schema for the SQL database.  The model was a Snowflake schema (see below).   The files were uploaded into an SQL database using PostgreSQL.  Using SQL the data was analyzed and then combined to build a dataset with the key information that is suitable for dashboard creating in Power BI.   The data was extracted into Power Bi and evaluated to provide key insights to meet the client’s requirements.   
+## Implementation Strategy and Data Collection: 
+ The data was gathered from multiple csv files with each file corresponding to one table of data. A program called quickDBD was used to create the schema for the SQL database.  The model was a Snowflake schema (see below).   The files were uploaded into an SQL database using PostgreSQL.  Using SQL the data was analyzed and then combined to build a dataset with the key information that is suitable for dashboard creating in Power BI.   The data was extracted into Power Bi and evaluated to provide key insights to meet the client’s requirements.   
 
-[sqlschema](schemasql.md)
+[sqlschema](QuickDBD-export.sql) [sqlcleanup](SQLsearchOct112023.sql) [sqlschema](stocksearch.sql) 
 
-## Data Collection:
+![](sql_layout.jpg)  
+
+Database Shema 
+
 
 
 ![](reactors.png)  
