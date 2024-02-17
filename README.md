@@ -50,7 +50,7 @@ Dashboard:  Staff Performance
 
 
 
-##  Clients Requirements and Recommendations:   
+##  Responses to Clients' Requirements and Recommendations:   
 
 1.	What is the overall performance of the shop and is there year over year growth? 
 2.	Which store has the highest performance? 
